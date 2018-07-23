@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+
+.hidden-div {
+    height: 100px;
+    display: hidden;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #fc0065;
+    position: fixed;
+    background-color: white;
+}
+
+.search-container{
+    flex:1;
+    order: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+.search-input{
+    width: 300px;
+    height: 30px;
+    border:none;
+    font-size: 20px;
+}
+.search-container .fa{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.search-input:focus{
+    width: 400px;
+    outline: none;
+    color: #fc0065;
+}
+
+.nav-links{
+    flex: 1;
+    order: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: #fc0065;
+}
+.title-container{
+    flex:1;
+    order: 2;
+    /*font-family: 'Lobster', cursive;*/
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: #fc0065;
+}
+.KJ-logo{
+    position: absolute;
+    right: 791px;
+    bottom: 7px;
+
+
+}
+.KJ-logo img{
+    height: 90px;
+    width: 90px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.images img {
+    height: 400px;
+    width: 300px;
+    
+}
+.images i {
+    color: #fc0065;
+}
+.images div {
+    margin: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.images div:hover{
+    transform: scale(1.1);
+}
+button{
+    opacity: 0%;
+}
+footer{
+    background-color:white;
+    border-top: solid 1px #fc0065;
+    width: 100%;
+    height: 150px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-menu{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-menu .menu{
+    list-style-type: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+.icons .fab{
+    font-size: 45px;
+    padding: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: center;      
+
+}
